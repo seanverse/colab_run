@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(python:*)",
+      "Bash(git:*)",
+      "Bash(pip:*)",
+      "Write(e:/AIWork/colab_run/**)",
+      "Edit(e:/AIWork/colab_run/**)",
+      "Read(e:/AIWork/colab_run/**)",
+      "Glob(e:/AIWork/colab_run/**)",
+      "Grep(e:/AIWork/colab_run/**)",
+      "WebSearch",
+      "WebFetch",
+      "NotebookEdit(e:/AIWork/colab_run/**)"
+    ],
+    "additionalDirectories": [
+      "e:/AIWork/colab_run"
+    ]
+  }
+}
