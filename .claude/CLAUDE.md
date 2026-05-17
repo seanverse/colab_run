@@ -18,8 +18,8 @@ Use Google Colab T4 GPU instances to benchmark small open-source models. NOT loc
 - Models must be publicly downloadable (HuggingFace / ModelScope / GitHub)
 - Include benchmark harness: timing, VRAM, RTF, per-sentence metrics
 - Output audio saved to `/content/tts_outputs/` in Colab runtime
-- Cell 0 always: GPU check + common setup
-- Cell 1 always: pip installs
+- Cell 0 always: `%pip install` ALL deps (common + model-specific) — use `%pip` not `!pip`
+- Cell 1 always: GPU check + common setup + imports (no pip in this cell)
 
 ## File Naming
 
